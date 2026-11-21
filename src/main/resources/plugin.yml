@@ -1,0 +1,13 @@
+name: EzRanks
+version: 1.0
+main: com.custom.ezranks.EzRanks
+description: Simple rank creation and management for Eaglercraft
+commands:
+  ezranks:
+    description: Manage server ranks
+    usage: /ezranks <create|prefix|set|delete|list>
+    permission: ezranks.admin
+permissions:
+  ezranks.admin:
+    description: Allows full access to EzRanks commands
+    default: op
